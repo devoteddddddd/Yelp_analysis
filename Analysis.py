@@ -3,7 +3,7 @@ import streamlit as st
 from PIL import Image
 import folium
 from folium.plugins import FastMarkerCluster
-import streamlit_folium as st_folium
+from streamlit_folium import st_folium
 
 
 st.set_page_config(page_title="Analysis system for merchant")
@@ -27,4 +27,4 @@ st.markdown(
 
 st.image(image1, caption='The top 15 commonly used attributes of Health and Medical businesses', use_column_width=True,  output_format='PNG')
 st.image(image2, caption='The top 50 commonly used categories of Health and Medical businesses', use_column_width=True,  output_format='PNG')
-st_data = st_folium(map1, width=725)
+st_data = st_folium(map1)
