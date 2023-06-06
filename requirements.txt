@@ -1,4 +1,4 @@
 pillow
-streamlit_folium
+streamlit-folium
 pandas
 folium

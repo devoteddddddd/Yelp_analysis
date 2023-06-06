@@ -27,4 +27,4 @@ st.markdown(
 
 st.image(image1, caption='The top 15 commonly used attributes of Health and Medical businesses', use_column_width=True,  output_format='PNG')
 st.image(image2, caption='The top 50 commonly used categories of Health and Medical businesses', use_column_width=True,  output_format='PNG')
-st_folium(map1, width=725)
+st_data = st_folium(map1, width=725)
