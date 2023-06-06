@@ -1,1 +1,4 @@
 pillow
+streamlit_folium
+pandas
+folium
