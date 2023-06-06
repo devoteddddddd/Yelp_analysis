@@ -20,4 +20,4 @@ st.markdown(
     """
 )
 
-st.image(image1, caption='The top 15 commonly used attributes of Health and Medical businesses', use_column_width=True,  format='PNG')
+st.image(image1, caption='The top 15 commonly used attributes of Health and Medical businesses', use_column_width=True,  output_format='PNG')
