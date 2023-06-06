@@ -7,7 +7,7 @@ from streamlit_folium import st_folium
 
 
 st.set_page_config(page_title="Analysis system for merchant")
-st.balloons()
+
 image1 = Image.open('./f1.png')
 image2 = Image.open('./f2.png')
 image3 = Image.open('./f3.png')
